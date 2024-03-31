@@ -1,2 +1,7 @@
-source venv/Script/activate
-uvicorn main:app --host 0.0.0.0 --port 8080 --reload &
+git clone https://github.com/sam-harri/eHotelBooking
+cd ehotelclient
+npm install
+npm run dev
+cd ..
+cd server
+python main.py
