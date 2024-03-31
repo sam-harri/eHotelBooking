@@ -7,10 +7,10 @@ from psycopg2.pool import SimpleConnectionPool
 conn_pool = SimpleConnectionPool(
             1, 20,
             user="postgres",
-            password="N2WeCfK5",
+            password="",
             host="localhost",
             port="5432",
-            database="eHotelDB")
+            database="")
 conn = conn_pool.getconn()
 cursor = conn.cursor()
 
